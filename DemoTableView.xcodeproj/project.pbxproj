@@ -14,6 +14,7 @@
 		95D2375B28365D01005A531E /* DemoTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95D2375928365D01005A531E /* DemoTableView.xcdatamodeld */; };
 		95D2375D28365D03005A531E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D2375C28365D03005A531E /* Assets.xcassets */; };
 		95D2376028365D03005A531E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D2375E28365D03005A531E /* LaunchScreen.storyboard */; };
+		95D2376828365DE5005A531E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2376728365DE5005A531E /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		95D2375C28365D03005A531E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95D2375F28365D03005A531E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95D2376128365D03005A531E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D2376728365DE5005A531E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				95D2375E28365D03005A531E /* LaunchScreen.storyboard */,
 				95D2376128365D03005A531E /* Info.plist */,
 				95D2375928365D01005A531E /* DemoTableView.xcdatamodeld */,
+				95D2376728365DE5005A531E /* TableViewCell.swift */,
 			);
 			path = DemoTableView;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D2376828365DE5005A531E /* TableViewCell.swift in Sources */,
 				95D2375528365D01005A531E /* ViewController.swift in Sources */,
 				95D2375128365D01005A531E /* AppDelegate.swift in Sources */,
 				95D2375B28365D01005A531E /* DemoTableView.xcdatamodeld in Sources */,
